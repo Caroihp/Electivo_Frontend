@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <form action="" method="">
+
+        <label for="nombre"> Nombre: </label>
+        <input type="text" name="nombre" id="nombre" autocomplete="off" required maxlength="8">
+
+        <br><br>
+
+        <label for="edad"> Edad: </label>
+        <input type="number" name="edad" id="edad" min="0" max="99"> 
+        
+        <br><br>
+        
+        <label for="fecha-nacimiento"> Fecha: </label>
+        <input type="date" name="fecha-nacimiento" id="fecha-nacimiento" autocomplete="off">   
+
+        <br><br>
+        
+        <label for="pass"> Contraseña: </label>
+        <input type="password" name="pass" id="pass" autocomplete="off" minlength="8" maxlength="12">   
+        
+        <br><br>
+
+        <label for="color-fav"> Color Favorito: </label>
+        <input type="color" name="color-fav" id="color-fav" autocomplete="off"> 
+        
+        <br><br>
+
+        <input type="hidden" name="escondido"> 
+
+        <br><br>
+
+        <input type="file" name="archivo" id="archivo">
+        
+        <br><br>
+
+        <label for="check"> Eres Estudiante: </label>
+        <input type="checkbox" name="check" id="check">  
+        
+        <br><br>
+
+        <label for="area"> Comentario </label>
+        <textarea name="area" id="area" rows="6" cols="20"></textarea> 
+
+        <br><br>
+
+        <label for="email"> Escriba su correo: </label>
+        <input type="email" name="email" id="email">
+        
+        <br><br>
+
+        <label for="multiple"> Seleccione un Pokemon </label>
+        <select name="multiple" id="multiple">
+            <option value="charmander">Charmander</option>
+            <option value="bulbasaur">Bulbasaur</option>
+            <option value="squirtle">Squirtle</option>
+            <option value="pikachu">Pikachu</option>
+        </select>  
+
+        <br><br>
+        
+        <input type="radio" name="tipo-fuente" id="negrita" value="bold">
+        <label type="radio">Negrita</label>
+        <input type="radio" name="tipo-fuente" id="normal" value="normal">
+        <label type="radio">Normal</label>
+
+        <br><br>
+
+        <input type="submit" value="Enviar">
+
+    </form>
+</body>
+</html>
