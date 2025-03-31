@@ -51,3 +51,35 @@ img{
 .links{
     text-align: center;
 }
+@media(max-width: 600px){
+    body{
+        background-color: rgb(28, 28, 113);
+    }
+    h1{
+        color: black;
+    }
+    h2{
+        color: black;
+    }
+    h3{
+        color: black;
+    }
+    img{
+        display: block;
+        margin: auto;
+        width: 100px;
+        height: 100px;
+    }
+    p{
+        color:rgb(0, 0, 0);
+    }
+    li{
+        color:rgb(0, 0, 0);
+    }
+    ul{
+        list-style-type: circle;
+    }
+    label{
+        color:rgb(0, 0, 0);
+    }    
+}
