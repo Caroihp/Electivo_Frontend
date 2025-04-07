@@ -1,6 +1,82 @@
-img{
+body {
+    background-color: #5865F2;
+    font-family: Arial, sans-serif;
+}
+a {
+    color: #5865F2;
+}
+img {
     display: block;
     margin: auto;
     width: 200px;
-    height: 100px;
+    height: 110px;
+}
+h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+label {
+    color: white;
+    display: inline-block;
+    text-align: left;
+    margin-top: 15px;
+}
+form {
+    display: block;
+}
+.container {
+    max-width: 500px;
+    margin: auto;
+    background-color: #2C2F33;
+    padding: 40px;
+    border-radius: 15px;
+}
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="email"],
+textarea,
+select,
+input[type="submit"] {
+    width: 95%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: #23272A;
+    color: white;
+    border: 1px solid rgb(117, 117, 117);
+    border-radius: 5px;
+}
+textarea {
+    resize: vertical;
+}
+select{
+    width: 99%;
+}
+input[type="radio"] {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+input[type="submit"] {
+    width: 99%;
+    background-color: #5865F2;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+@media(max-width: 600px){
+    body {
+        background-color: #ffffff;
+    }
+    h1 {
+        color: #5865F2;
+    }
 }

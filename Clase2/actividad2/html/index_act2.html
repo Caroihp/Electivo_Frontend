@@ -10,79 +10,91 @@
 
 <body>
 
-    <img src="/Clase2/actividad2/img/logo_discord.png">
+    <div class="container">
 
-    <form action="" method="">
+        <img src="/Clase2/actividad2/img/logo_discord.png">
 
-        <h1>Crear una cuenta en Discord</h1>
+        <form action="" method="">
 
-        <label for="nombre"> Nombre: </label>
-        <input type="text" name="nombre" id="nombre" autocomplete="off" required maxlength="8">
+            <h1>Crear una cuenta en Discord</h1>
 
-        <br><br>
+            <label for="nombre"> Nombre: </label>
+            <br>
+            <input type="text" name="nombre" id="nombre" autocomplete="off" required maxlength="20">
 
-        <label for="nombre"> Apellido: </label>
-        <input type="text" name="nombre" id="nombre" autocomplete="off" required maxlength="8">
+            <br><br>
 
-        <br><br>
+            <label for="apellido"> Apellido: </label>
+            <br>
+            <input type="text" name="apellido" id="apellido" autocomplete="off" required maxlength="20">
 
-        <label for="email"> Correo Eléctronico: </label>
-        <input type="email" name="email" id="email">
+            <br><br>
 
-        <br><br>
+            <label for="email"> Correo Eléctronico: </label>
+            <br>
+            <input type="email" name="email" id="email" required autocomplete="off">
 
-        <label for="pass"> Contraseña: </label>
-        <input type="password" name="pass" id="pass" autocomplete="off" minlength="8" maxlength="12">
+            <br><br>
 
-        <br><br>
+            <label for="pass"> Contraseña: </label>
+            <br>
+            <input type="password" name="pass" id="pass" autocomplete="off" required minlength="8" maxlength="12">
 
-        <label for="checkearpass"> Confirmar Contraseña: </label>
-        <input type="password" name="checkearpass" id="checkearpass" autocomplete="off" minlength="8" maxlength="12">
+            <br><br>
 
-        <br><br>
+            <label for="checkearpass"> Confirmar Contraseña: </label>
+            <br>
+            <input type="password" name="checkearpass" id="checkearpass" autocomplete="off" required minlength="8"
+                maxlength="12">
 
-        <label for="fecha-nacimiento"> Fecha de Nacimiento: </label>
-        <input type="date" name="fecha-nacimiento" id="fecha-nacimiento" autocomplete="off">
+            <br><br>
 
-        <br><br>
+            <label for="fecha-nacimiento"> Fecha de Nacimiento: </label>
+            <br>
+            <input type="date" name="fecha-nacimiento" id="fecha-nacimiento" required autocomplete="off">
 
+            <br><br>
 
-        <label for="genero"> Genero: </label>
-        <input type="radio" name="genero" id="femenino" value="femenino">
-        <label type="radio">Femenino</label>
-        <input type="radio" name="genero" id="masculino" value="masculino">
-        <label type="radio">Masculino</label>
-        <input type="radio" name="genero" id="nodecirlo" value="nodecirlo">
-        <label type="radio">Prefiero no Decirlo</label>
+            <label for="genero"> Genero: </label>
+            <br>
+            <input type="radio" name="genero" id="femenino" value="femenino">
+            <label for="femenino">Femenino</label>
 
-        <br><br>
+            <input type="radio" name="genero" id="masculino" value="masculino">
+            <label for="masculino">Masculino</label>
 
-        <label for="area"> Descripción sobre ti: </label>
+            <input type="radio" name="genero" id="no-decirlo" value="no-decirlo">
+            <label for="no-decirlo">Prefiero no Decirlo</label>
 
-        <br><br>
+            <br><br>
 
-        <textarea name="area" id="area" rows="6" cols="20"></textarea>
+            <label for="area"> Descripción sobre ti: </label>
+            <textarea name="area" id="area" rows="6" cols="20" required></textarea>
 
-        <br><br>
+            <br><br>
 
-        <label for="multiple"> Selecciona tus interese: </label>
-        <select name="multiple" id="multiple">
-            <option value="musica">Música</option>
-            <option value="peliculas">Películas</option>
-            <option value="deportes">Deportes</option>
-            <option value="tecnologia">Tecnología</option>
-        </select>
+            <label for="multiple"> Selecciona tus intereses: </label>
+            <br>
+            <select name="multiple" id="multiple" required>
+                <option value="" disabled selected>Selecciona una opción</option>
+                <option value="musica">Música</option>
+                <option value="peliculas">Películas</option>
+                <option value="deportes">Deportes</option>
+                <option value="tecnologia">Tecnología</option>
+            </select>
 
-        <br><br>
+            <br><br>
 
-        <input type="checkbox" name="check" id="check">
-        <label for="check">Al registrarte, aceptas los Términos y Condiciones de Discord</label>
+            <input type="checkbox" name="check" id="check" required>
+            <label for="check">Al registrarte, aceptas los <a href="https://discord.com/terms" target="_blank">Términos
+                    y Condiciones</a> de Discord.</label>
 
-        <br><br>
+            <br><br>
 
-        <input type="submit" value="Registrarse">
+            <input type="submit" value="Registrarse">
 
-    </form>
+        </form>
+    </div>
 
 </body>
 
