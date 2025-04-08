@@ -1,0 +1,90 @@
+*{
+    font-family: 'Roboto Mono', serif;
+}
+
+h1{
+    color: red;
+}
+.is-centered{
+    text-align: center; /*centrar el texto*/
+}
+.is-orange{
+    color: darkorange;
+}
+
+#container-img{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+#avatar{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+#container{
+    background-color: gray;
+    padding: 10px;
+}
+#container p.highlights{
+    font-weight: bold;
+    color: gold;
+}
+#container p{
+    font-size: 16px;
+    background-color: #444;
+    color: white;
+}
+.t1{
+    font-weight: normal;
+}
+.t2{
+    font-weight: bold;
+}
+.t3{
+    font-weight: 200;
+}
+.t4{
+    font-weight: 500;
+}
+.t5{
+    font-weight: 900;
+}
+#absoluto{
+    height: 150px;
+    width: 200px;
+    background-color: purple;
+    text-align: center;
+    padding: 10px;
+}
+
+#relativo{
+    height: 20%;
+    width: 30%;
+    background-color: green;
+    text-align: center;
+    padding: 10px;
+}
+#absoluto-otro{
+    height: 100px;
+    width: 200px;
+    background-color: purple;
+    text-align: center;
+    padding: 10px;
+    overflow: auto;
+}
+.fondo{
+    height: 500px;
+    width: 500px;
+    background: red url(avatar.jpg) no-repeat fixed center;
+}
+.btn{
+    background-color: aqua;
+    color: black;
+    border: 4px solid black;
+    padding: 6px 12px;
+    text-align: center;
+    border-radius: 0px;
+}
