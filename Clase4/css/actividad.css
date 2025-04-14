@@ -1,0 +1,66 @@
+body{
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(24,18,92);
+    color: whitesmoke;
+    padding: 35px 0px;
+    text-align: center;
+}
+nav{
+    background-color: rgb(56,46,173);
+    padding: 20px 0px;
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+    color: whitesmoke;
+    margin: 0px 32px;
+}
+nav a:hover{
+    color: aqua;
+}
+#container{
+    background-color: whitesmoke;
+    border-radius: 20px;
+    width: 80%;
+    margin: 32px auto;
+    padding: 10px 0px;
+}
+#caja-azul{
+    background-color: rgb(24,18,92);
+    color: whitesmoke;
+    text-align: center;
+    width: 80%;
+    margin: 10px auto;
+    padding: 12px 0px;
+    border-radius: 26px;
+}
+#caja-azul button{
+    background-color: violet;
+    color: black;
+    border-radius: 40px;
+    padding: 8px 12px;
+}
+#caja-azul button:hover{
+    background-color: deeppink;
+    color: whitesmoke;
+}
+#cajas-pequenas-container{
+    width: 80%;
+    margin: 10px auto;
+    text-align: center;
+}
+.cajita{
+    width: 30%;
+    background-color: cornflowerblue;
+    display: inline-block;
+    height: 150px;
+    border-radius: 20px;
+    text-align: center;
+    color: whitesmoke;
+    margin: 0px 5px;
+}
