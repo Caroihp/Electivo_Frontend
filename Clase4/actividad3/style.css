@@ -1,0 +1,77 @@
+body{
+    background-color: lightgrey;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(24, 18, 92);
+    color: whitesmoke;
+    padding: 35px 0px;
+    text-align: center;
+}
+nav{
+    background-color:  rgb(56, 46, 173);
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+    color: whitesmoke;
+    margin: 0px 32px;
+}
+nav a:hover{
+    color:aqua;
+}
+#container{
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding: 10px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+#caja-azul{
+    background-color: rgb(24, 18, 92);
+    color: whitesmoke;
+    width: 90%;
+    margin: 10px auto;
+    padding: 12px 0px;
+    border-radius: 26px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+#caja-azul button{
+    background-color: violet;
+    color: black;
+    border-radius: 40px;
+    padding: 8px 12px;
+}
+#caja-azul button:hover{
+    background-color: deeppink;
+    color: whitesmoke;
+}
+#cajas-pequenas-container{
+    width: 80%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.cajita{
+    width: 30%;
+    background-color: cornflowerblue;
+    display: flex;
+    border-radius: 20px;
+    color: whitesmoke;
+    margin: 0px 5px;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
