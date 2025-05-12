@@ -1,0 +1,21 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+#resultado{
+    margin-top: 20px;
+}
+
+.tarjeta-clima{
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    max-width: 300px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    background-color: #f9f9f9;
+}
+
+.tarjeta-clima img{
+    vertical-align: middle;
+}
